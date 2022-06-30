@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{ABED5F55-62A0-4ED4-8A6F-F2F24D167E74}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Kursach_ClickerAboba</RootNamespace>
+    <AssemblyName>Kursach_ClickerAboba</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing.Common, Version=4.0.0.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Drawing.Common.5.0.2\lib\net461\System.Drawing.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\photo5271740355324261156.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LibOFclasses\LibOFclasses.csproj">
+      <Project>{015256e4-09cd-4706-b5ae-9e7faaefd930}</Project>
+      <Name>LibOFclasses</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fonmenu.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fontmenu1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pecheru.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mob1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mob2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\man1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mob3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\boss1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bossFOn.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\boss2Fon.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\font2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fullhd2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\zall.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\zall2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gifpapich.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\les.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gifmenu.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\abobus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\abobus2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\glad.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gifglad.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lastfont.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\monet.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gifSerze.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vinni.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shopnow.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shopfont.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kupez.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kisspng-dungeons-dragons-roll20-goliath-role-playing-gam-dnd-5ae8191032c533.068339961525160208208 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kursorshop.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kisspng-bhavani-maratha-empire-talwar-sword-weapon-5af4ef0fce0c73.396870631526001423844 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kisspng-weapon-sword-sabre-tool-samurai-5ac338c1ccfcc2.0607973315227434898396.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kisspng-the-ninja-shuriken-knife-ninjutsu-metal-particles-5adb5865676d27.0095193415243244534236.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kisspng-knife-clip-art-knife-5a730f2466fff1.5187905715174899564219.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kisspng-knife-sword-blade-katana-samurai-katana-5ac378e81b00b4.6094014415227599121106.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kisspng-swiss-army-knife-download-clip-art-pb-swiss-tools-5b2c30c2e8bc29.2263287015296227229533.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shopback.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

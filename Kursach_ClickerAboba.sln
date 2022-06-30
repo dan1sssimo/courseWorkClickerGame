@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30517.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kursach_ClickerAboba", "Kursach_ClickerAboba\Kursach_ClickerAboba.csproj", "{ABED5F55-62A0-4ED4-8A6F-F2F24D167E74}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibOFclasses", "LibOFclasses\LibOFclasses.csproj", "{015256E4-09CD-4706-B5AE-9E7FAAEFD930}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ABED5F55-62A0-4ED4-8A6F-F2F24D167E74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABED5F55-62A0-4ED4-8A6F-F2F24D167E74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABED5F55-62A0-4ED4-8A6F-F2F24D167E74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABED5F55-62A0-4ED4-8A6F-F2F24D167E74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{015256E4-09CD-4706-B5AE-9E7FAAEFD930}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{015256E4-09CD-4706-B5AE-9E7FAAEFD930}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{015256E4-09CD-4706-B5AE-9E7FAAEFD930}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{015256E4-09CD-4706-B5AE-9E7FAAEFD930}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5ACB7B4F-77D1-445F-80C5-ED0538FE38B7}
+	EndGlobalSection
+EndGlobal

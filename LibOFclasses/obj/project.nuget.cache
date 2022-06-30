@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "irKedfUXRxOaQJaViIJo8QGrB/FEifLrI3mTAdR6ssHAGfe58uzHWKMa6Fj9jaP83flV3+ou6LGdVaUCkfXBuQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\danil\\source\\repos\\Kursach_ClickerAboba\\LibOFclasses\\LibOFclasses.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\danil\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\danil\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\danil\\.nuget\\packages\\system.drawing.common\\5.0.2\\system.drawing.common.5.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}
